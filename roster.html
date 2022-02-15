@@ -1,33 +1,97 @@
 <html>
 <head>
-  <style>
-    p {
-      text-align:center;
-  </style>
+<style>
+
+#gallery {
+    display: flex;
+	  flex-wrap: wrap;
+    padding: 0.625em;
+    margin: 0;
+    border: 0.06em solid #999;
+    border-radius: 1em;
+    overflow: hidden;
+    list-style-type: none;
+ }
+
+#gallery li {
+    width: 19%; /*5 columns -100%/5 - 1% margin value */
+    margin: 0.5%;
+    padding: 0.625em;
+    border: 0.06em solid #999;
+    border-radius: 0.75em;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0.375em 0.375em 0.375em #999;
+ }
+
+#gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0.06em solid #000;
+    border-radius: 0.625em;
+    box-sizing: border-box;
+ }
+
+@media screen and (max-width: 50em) {
+#gallery li {
+    width: 32.333%; /*3 columns -100%/3 - 1% margin value */
+  }
+ }
+
+@media screen and (max-width: 30em) {
+#gallery li {
+    width: 49%; /*2 columns -100%/2 - 1% margin value */
+  }
+ }
+
+@media screen and (max-width: 21em) {
+#gallery li {
+    width: 99%; /*1 columns -100%/1 - 1% margin value */
+  }
+ }
+
+ .thumbnail:hover {
+   transform:scale(1.5);
+}
+</style>
 </head>
-<body>
-<p>Sandeep Boddapalli</p>
-<p>Kiana Burns</p>
-<p>Richard Chiqui</p>
-<p>Gracie Davis</p>
-<p>Marion Dewey</p>
-<p>Aubry Dreikosen</p>
-<p>Landen Fulton</p>
-<p>Adi Gupta</p>
-<p>Justin Hickland</p>
-<p>Christopher Howard</p>
-<p>Emma Landry</p>
-<p>Ariana Lawrence</p>
-<p>Roderick Liu</p>
-<p>Andrew Lockard</p>
-<p>Mia Phiri</p>
-<p>Dawson Smith</p>
-<p>Aparna Sudhakar</p>
-<p>Jonay Sutton</p>
-<p>Arvind Veerelli</p>
-<p>Yutong Wang</p>
-<p>Kat Ward</p>
-<p>Steven Wilmot</p>
-<p>Abhay Zala</p> 
-  <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1ofUeqmUWk2b18vn3RA9jDI91Eqj92MFV47vzulQwH-I&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+<body style="background-image:url(file:///Users/elshand/Desktop/UNC-Chapel%20Hill/13.%20Spring%202022/HTML/149%20bio_sample/images/background.jpg)">
+  <ul id="gallery">
+ <li><a href="index.html">
+   <img src="studentprofiles/home.jpg" alt="home" class="thumbnail"></a>
+</li>
+ <li>
+   <a href="studentessays/Dreikosenautobiography/index.html"><img src="studentprofiles/AubreyDreikosen.jpg" alt="Aubrey Dreikosen" class="thumbnail"></a>
+</li>
+  <li>
+    <a href="studentessays/Hicklandautobiography/index.html"><img src="studentprofiles/JustinHickland.jpg" alt="Justin Hickland" class="thumbnail"></a>
+  </li>
+ <li>
+   <a href="studentessays/Liuautobiography/bio.html"><img src="studentprofiles/RoderickLiu.jpg" alt="Roderick Liu" class="thumbnail"></a></li>
+ <li><a href="studentessays/Wangautobiography/index.html"><img src="studentprofiles/YutongWang.jpg" alt="Yutong Wang" class="thumbnail"></a></li>
+ <li>
+     <a href="studentessays/Wardautobiography/index.html"><img src="studentprofiles/KatWard.jpg" alt="KatWard" class="thumbnail"></a></li>
+ <li><img src="studentprofiles/AndrewLockard.jpg" alt="Andrew Lockard" class="thumbnail"></li>
+ <li>
+   <a href="studentessays/Boddepalliautobiography/index.html"><img src="studentprofiles/SandeepBoddepalli.jpg" alt="Sandeep Boddepalli" class="thumbnail"></a></li>
+ <li>
+   <a href="studentessays/Deweyautobiography/index.html"><img src="studentprofiles/MarionDewey.jpg" alt="Marion Dewey" class="thumbnail"></a></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+</ul>
 </body>
