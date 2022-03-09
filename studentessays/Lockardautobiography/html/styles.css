@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/south-building.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 850px;
+    min-width: 736px;
+    margin: 1% auto;
+    text-align: center;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.tline {
+    background-color: #4B9CD3;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.tline > h1 {
+    font-family: 'Staatliches', Arial, Helvetica, sans-serif;
+    font-size: 5.5em;
+    padding-top: 0.5%;
+}
+
+.byline {
+    font-family: 'Lobster Two', cursive;
+    font-size: 25pt;
+    padding-bottom: 1%;
+}
+
+.content {
+    padding: 0 1%;
+}
+
+figure {
+    background-color: beige;
+    padding: 1% 0;
+    border: 1px solid black;
+    margin: 1%;
+    width: 33%;
+}
+
+figure > img {
+    width: 90%;
+    height: auto;
+}
+
+.wake_game, .wtower {
+    float: left;
+}
+
+.wesley, .lastlunch{
+    float: right;
+}
+
+figcaption {
+    padding: 0 1%;
+    font-size: 13px;
+}
+
+.shead {
+    font-family: 'Yeseva One', Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+}
+
+.dCap::first-letter{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50pt;
+    line-height: 36pt;
+    float: left;
+}
+
+.links {
+    clear: right;
+}
+
+.fread {
+    font-family: 'Yeseva One', Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+.links > a {
+    margin: 0 2%;
+}
