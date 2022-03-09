@@ -1,24 +1,20 @@
 <html>
 <head>
-
+	
 <script>
-var links = [
-              "https://engl149.github.io/collective/studentessays/Lockardautobiography/index.html",
+    var sites = [
+		"https://engl149.github.io/collective/studentessays/Lockardautobiography/index.html",
               "https://engl149.github.io/collective/studentessays/Wardautobiography/index.html",
               "https://engl149.github.io/collective/studentessays/Suttonautobiography/index.html",
-              "https://engl149.github.io/collective/studentessays/Smithautobiography/index.html"]
+              "https://engl149.github.io/collective/studentessays/Smithautobiography/index.html"
+    ];
 
-           var openSite = function() {
-              // get a random number between 0 and the number of links
-              var randIdx = Math.random() * links.length;
-              // round it, so it can be used as array index
-              randIdx = parseInt(randIdx, 10);
-              // construct the link to be opened
-              var link = links[randIdx];
-
-     return link;
-    };
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
 </script>
+
 <style>
 
 #gallery {
@@ -124,6 +120,6 @@ var links = [
  <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
  <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
  <li>
-	 <a href="javascript:openSite()"><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></a></li>
+	 <a href="#" onclick="randomSite();"><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></a></li>
 </ul>
 </body>
