@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Emma Landry</title>
+
+<script>
+    var sites = [
+		"https://engl149.github.io/collective/studentessays/Boddapelliautobiography/BoddapelliProjectPage.html",
+              "https://engl149.github.io/collective/studentessays/Wardautobiography/WardProjectPage.html",
+              "https://engl149.github.io/collective/studentessays/Suttonautobiography/SuttonProjectPage.html",
+              "https://engl149.github.io/collective/studentessays/Smithautobiography/SmithProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Burnsautobiography/ProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Chiquiautobiography/ChiquiProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Davisautobiography/DavisProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Deweyautobiography/DeweyProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Dreikosenautobiography/DreikosenProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Fultonautobiography/FultonProjectPagFultonProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Guptaautobiography/GuptaProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Hicklandautobiography/HicklandProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Howardautobiography/HowardProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Landryautobiography/LandryProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Lawrenceautobiography/LawrenceProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Liuautobiography/LiuProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Lockardautobiography/LockardProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Phiriautobiography/PhiriProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Sudhakarautobiography/SudhakarProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Veerelliautobiography/VeerelliProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Wangautobiography/WangProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Wilmotautobiography/WilmotProjectPage.html"
+	    "https://engl149.github.io/collective/studentessays/Zalaautobiography/ZalaProjectPage.html"
+    ];
+
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
+</script>
+<style>
+a {
+  color:black;
+  text-decoration: none;
+}
+.backgroundbox {
+  background-color:black;
+  width: 50%;
+  top:210px;
+  left:240px;
+  z-index:1;
+}
+.boxed {
+  background-color:white;
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+  position: absolute;
+  z-index:2;
+  top: 200px;
+  left: 250px
+}
+ .boxed:hover {
+  top:190px;
+  left:260px;
+  }
+
+</style>
+</head>
+<body style="background-image:url(https://raw.githubusercontent.com/ENGL149/collective/main/images/background.jpg)">
+  <div class="backgroundbox">
+  <div class="boxed">
+    <h1 style="font-family: Courier New, monospace">Emma Landry</h1>
+    <p style="font-family: Courier New, monospace"><a href="html/index.html">Link to my autobiography web page</a></p>
+    <p style="font-family: Courier New, monospace">Listen to my audio autobiography</p>
+    <p style="font-family: Courier New, monospace">Download and send postcards based on my experiences</p>
+    <p style="font-family: Courier New, monospace">View my "MyStory" video autobiography</p>
+      <p style="text-align:center"><a href="https://engl149.github.io/collective/index.html"><img src="../../studentprofiles/home.jpg" width="150" height="150" hspace="10" vspace="10"><a href="#" onclick="randomSite();"><img src="../../studentprofiles/random.jpg" width="150" height="150" hspace="10" vspace="10"></a></p>
+  </div>
+<body>
+</html>
