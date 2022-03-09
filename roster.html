@@ -1,5 +1,24 @@
 <html>
 <head>
+
+<script>
+var links = [
+              "google.com",
+              "youtube.com",
+              "reddit.com",
+              "apple.com"]
+
+           var openSite = function() {
+              // get a random number between 0 and the number of links
+              var randIdx = Math.random() * links.length;
+              // round it, so it can be used as array index
+              randIdx = parseInt(randIdx, 10);
+              // construct the link to be opened
+              var link = 'http://' + links[randIdx];
+
+     return link;
+    };
+</script>
 <style>
 
 #gallery {
@@ -104,6 +123,7 @@
  <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
  <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
  <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
- <li><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></li>
+ <li>
+	 <a href="javascript:openSite()"><img src="studentprofiles/icon.png" width="300" height="300" alt="" class="thumbnail"></a></li>
 </ul>
 </body>
