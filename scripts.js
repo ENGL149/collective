@@ -1,5 +1,5 @@
 var sites = [
-		"https://engl149.github.io/collective/studentessays/Boddapalliautobiography/BoddapelliProjectPage.html",
+		"https://engl149.github.io/collective/studentessays/Boddepalliautobiography/BoddepalliProjectPage.html",
               "https://engl149.github.io/collective/studentessays/Wardautobiography/WardProjectPage.html",
               "https://engl149.github.io/collective/studentessays/Suttonautobiography/SuttonProjectPage.html",
               "https://engl149.github.io/collective/studentessays/Smithautobiography/SmithProjectPage.html",
