@@ -3,7 +3,7 @@ var sites = [
               "https://engl149.github.io/collective/studentessays/Wardautobiography/WardProjectPage.html",
               "https://engl149.github.io/collective/studentessays/Suttonautobiography/SuttonProjectPage.html",
               "https://engl149.github.io/collective/studentessays/Smithautobiography/SmithProjectPage.html",
-	    "https://engl149.github.io/collective/studentessays/Burnsautobiography/ProjectPage.html",
+	    "https://engl149.github.io/collective/studentessays/Burnsautobiography/BurnsProjectPage.html",
 	    "https://engl149.github.io/collective/studentessays/Chiquiautobiography/ChiquiProjectPage.html",
 	    "https://engl149.github.io/collective/studentessays/Davisautobiography/DavisProjectPage.html",
 	    "https://engl149.github.io/collective/studentessays/Deweyautobiography/DeweyProjectPage.html",
